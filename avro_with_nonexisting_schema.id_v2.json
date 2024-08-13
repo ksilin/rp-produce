@@ -1,0 +1,12 @@
+{
+    "value_schema_id": 999,
+    "records": [
+      {
+        "value": 12
+      },
+      {
+        "value": 24,
+        "partition": 0
+      }
+    ]
+  }

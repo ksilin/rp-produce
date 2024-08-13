@@ -1,0 +1,22 @@
+{
+  "partition_id": 0,
+  "headers": [
+      {
+          "name": "Header-1",
+          "value": "SGVhZGVyLTE="
+      },
+      {
+          "name": "Header-2",
+          "value": "SGVhZGVyLTI="
+      }
+  ],
+  "key": {
+      "type": "STRING",
+      "data": "someKey"
+  },
+  "value": {
+      "schema_id": 2,
+      "data": {"foo":"John Doe","bar":30}
+  },
+  "timestamp": "2024-08-12T19:14:42Z"
+}

@@ -1,0 +1,12 @@
+{
+    "value_schema": "{\"name\":\"int\",\"type\": \"int\"}",
+    "records": [
+      {
+        "value": 12
+      },
+      {
+        "value": 24,
+        "partition": 0
+      }
+    ]
+  }

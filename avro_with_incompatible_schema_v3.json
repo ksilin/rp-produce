@@ -1,0 +1,24 @@
+{
+  "partition_id": 0,
+  "headers": [
+      {
+          "name": "Header-1",
+          "value": "SGVhZGVyLTE="
+      },
+      {
+          "name": "Header-2",
+          "value": "SGVhZGVyLTI="
+      }
+  ],
+  "key": {
+      "type": "STRING",
+      "data": "someKey"
+  },
+  "value": {
+      "type": "AVRO",
+      "subject": "test-topic-value",
+      "schema": "{\"type\":\"record\",\"name\":\"SimpleRecord\",\"namespace\":\"com.example.avro\",\"fields\":[{\"name\":\"blip\",\"type\":\"string\"},{\"name\":\"blop\",\"type\":\"int\"}]}",
+      "data": {"blip":"John Doe","blop":30}
+  },
+  "timestamp": "2024-08-12T19:14:42Z"
+}

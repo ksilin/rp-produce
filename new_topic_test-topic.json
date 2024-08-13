@@ -1,0 +1,11 @@
+{
+    "topic_name": "test-topic",
+    "partitions_count": 2,
+    "replication_factor": 1,
+    "configs": [
+        {
+            "name": "cleanup.policy",
+            "value": "delete"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+  "partition_id": 0,
+  "key": {
+      "type": "STRING",
+      "data": "someKey"
+  },
+  "value": {
+      "subject": "test-topic-value",
+      "schema_version": 1,
+      "data": {"name":"John Doe","age":30}
+  },
+  "timestamp": "2024-08-12T19:14:42Z"
+}

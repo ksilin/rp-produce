@@ -1,0 +1,13 @@
+{
+  "partition_id": 0,
+  "key": {
+      "type": "STRING",
+      "data": "someKey"
+  },
+  "value": {
+      "type": "AVRO",
+      "schema": "{\"type\":\"record\",\"name\":\"SimpleRecord\",\"namespace\":\"com.example.avro\",\"fields\":[{\"name\":\"name\",\"type\":\"string\"}]}",
+      "data": {"name":"John Doe"}
+  },
+  "timestamp": "2024-08-12T19:14:42Z"
+}
